@@ -5,7 +5,7 @@ from database import add_expense, get_expenses, delete_expense
 from visualizer import show_expense_bar_chart, show_expense_pie_chart
 
 root = tk.Tk()
-root.title("Smart Expense Tracker")
+root.title("Ekorshi's Smart Expense Tracker")
 root.geometry("700x620")
 
 amount_var = tk.StringVar()
